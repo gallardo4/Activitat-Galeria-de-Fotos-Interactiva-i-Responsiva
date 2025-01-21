@@ -75,24 +75,21 @@ h1 {
     box-shadow: 0 8px 20px rgba(255, 204, 0, 0.8);
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 1200px) {
     .gallery {
         grid-template-columns: repeat(4, 1fr);
-        max-width: 1200px;
     }
 }
 
-@media (min-width: 768px) and (max-width: 1023px) {
+@media (min-width: 768px) and (max-width: 1199px) {
     .gallery {
         grid-template-columns: repeat(2, 1fr);
-        max-width: 800px;
     }
 }
 
 @media (max-width: 767px) {
     .gallery {
         grid-template-columns: 1fr;
-        max-width: 90%;
     }
 }
 
